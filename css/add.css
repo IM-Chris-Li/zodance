@@ -1,0 +1,83 @@
+#carouselExampleCaptions {
+    width: 100%;
+    position: relative;
+    margin-top: 80px;
+    background-color: blue;
+}
+
+@media (min-width: 768px) {
+        /* 使命与愿景样式修改 */
+        #mission {
+            padding:20px!important;
+            padding-top: 40px!important;
+            margin-left: 10%!important;
+            font-size: 1.4em!important;
+            height: 240px;
+            width: 380px;
+        }
+        #mission-en {
+            font-size: 1em!important;
+        }
+        #mission-zh {
+            font-size: 1em!important;
+        }
+}
+
+@media (min-width: 1400px) {
+    /* 轮播图图片尺寸调整 */
+    #carouselExampleCaptions .carousel-inner img {
+        margin-top: -300px;
+    }
+}
+@media (min-width: 992px) {
+
+    /* 使命与愿景样式修改 */
+    #mission {
+        padding:20px!important;
+        padding-top: 40px!important;
+        margin-left: 10%!important;
+        font-size: 1.5em!important;
+        height: 300px;
+        width: 500px;
+        color: blue;
+    }
+    #mission-en {
+        font-size: 1.5em!important;
+    }
+    #mission-zh {
+        font-size: 2em!important;
+    }
+
+
+}
+
+@media (min-width: 1200px) {}
+
+
+#mission {
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+    border-bottom-right-radius: 2em;
+    position: absolute;
+    color: black;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 1);
+    font-family: "Gilroy";
+    font-size: 1.2em;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: left;
+}
+
+#mission-title {
+    font-family: "Gilroy-Bold";
+    color: #828282;
+    font-size: .8em;
+}
+
+#mission-en {
+    font-family: "Gilroy";
+    font-size: 1.2em;
+    color: grey;
+}
